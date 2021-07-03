@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*
 Theme Name: App Landing Page
 Author: Markhorthemes
@@ -47,13 +48,25 @@ Theme URI: http://www.htmlbeans.com/html/app-landing
 /*------------------------------------------------------------------
 1. import files / import files
 -------------------------------------------------------------------*/
-.social-networks, .features-list, .facts-list, .demo-block ul, .price-col ul {
+.social-networks,
+.features-list,
+.facts-list,
+.demo-block ul,
+.price-col ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.clearfix:after, .widget:after, .search-form:after, .post-password-form p:after, .navigation-single:after, #header:after, #header .holder:after, .price-col:after, #footer:after {
+.clearfix:after,
+.widget:after,
+.search-form:after,
+.post-password-form p:after,
+.navigation-single:after,
+#header:after,
+#header .holder:after,
+.price-col:after,
+#footer:after {
   content: '';
   display: block;
   clear: both;
@@ -78,42 +91,28 @@ img {
 
 .comment-form input[type='text'],
 .search-form input[type='text'],
-.post-password-form input[type='text'], .comment-form
-input[type='tel'],
-.search-form
-input[type='tel'],
-.post-password-form
-input[type='tel'], .comment-form
-input[type='email'],
-.search-form
-input[type='email'],
-.post-password-form
-input[type='email'], .comment-form
-input[type='search'],
-.search-form
-input[type='search'],
-.post-password-form
-input[type='search'], .comment-form
-input[type='password'],
-.search-form
-input[type='password'],
-.post-password-form
-input[type='password'], .comment-form
-input[type='url'],
-.search-form
-input[type='url'],
-.post-password-form
-input[type='url'], .comment-form
-input[type='date'],
-.search-form
-input[type='date'],
-.post-password-form
-input[type='date'], .comment-form
-textarea,
-.search-form
-textarea,
-.post-password-form
-textarea {
+.post-password-form input[type='text'],
+.comment-form input[type='tel'],
+.search-form input[type='tel'],
+.post-password-form input[type='tel'],
+.comment-form input[type='email'],
+.search-form input[type='email'],
+.post-password-form input[type='email'],
+.comment-form input[type='search'],
+.search-form input[type='search'],
+.post-password-form input[type='search'],
+.comment-form input[type='password'],
+.search-form input[type='password'],
+.post-password-form input[type='password'],
+.comment-form input[type='url'],
+.search-form input[type='url'],
+.post-password-form input[type='url'],
+.comment-form input[type='date'],
+.search-form input[type='date'],
+.post-password-form input[type='date'],
+.comment-form textarea,
+.search-form textarea,
+.post-password-form textarea {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   border: 1px solid #999;
@@ -122,248 +121,164 @@ textarea {
 
 .comment-form input[type='text']:focus,
 .search-form input[type='text']:focus,
-.post-password-form input[type='text']:focus, .comment-form
-input[type='tel']:focus,
-.search-form
-input[type='tel']:focus,
-.post-password-form
-input[type='tel']:focus, .comment-form
-input[type='email']:focus,
-.search-form
-input[type='email']:focus,
-.post-password-form
-input[type='email']:focus, .comment-form
-input[type='search']:focus,
-.search-form
-input[type='search']:focus,
-.post-password-form
-input[type='search']:focus, .comment-form
-input[type='password']:focus,
-.search-form
-input[type='password']:focus,
-.post-password-form
-input[type='password']:focus, .comment-form
-input[type='url']:focus,
-.search-form
-input[type='url']:focus,
-.post-password-form
-input[type='url']:focus, .comment-form
-input[type='date']:focus,
-.search-form
-input[type='date']:focus,
-.post-password-form
-input[type='date']:focus, .comment-form
-textarea:focus,
-.search-form
-textarea:focus,
-.post-password-form
-textarea:focus {
+.post-password-form input[type='text']:focus,
+.comment-form input[type='tel']:focus,
+.search-form input[type='tel']:focus,
+.post-password-form input[type='tel']:focus,
+.comment-form input[type='email']:focus,
+.search-form input[type='email']:focus,
+.post-password-form input[type='email']:focus,
+.comment-form input[type='search']:focus,
+.search-form input[type='search']:focus,
+.post-password-form input[type='search']:focus,
+.comment-form input[type='password']:focus,
+.search-form input[type='password']:focus,
+.post-password-form input[type='password']:focus,
+.comment-form input[type='url']:focus,
+.search-form input[type='url']:focus,
+.post-password-form input[type='url']:focus,
+.comment-form input[type='date']:focus,
+.search-form input[type='date']:focus,
+.post-password-form input[type='date']:focus,
+.comment-form textarea:focus,
+.search-form textarea:focus,
+.post-password-form textarea:focus {
   border-color: #333;
 }
 
 .comment-form input[type='text']::-webkit-input-placeholder,
 .search-form input[type='text']::-webkit-input-placeholder,
-.post-password-form input[type='text']::-webkit-input-placeholder, .comment-form
-input[type='tel']::-webkit-input-placeholder,
-.search-form
-input[type='tel']::-webkit-input-placeholder,
-.post-password-form
-input[type='tel']::-webkit-input-placeholder, .comment-form
-input[type='email']::-webkit-input-placeholder,
-.search-form
-input[type='email']::-webkit-input-placeholder,
-.post-password-form
-input[type='email']::-webkit-input-placeholder, .comment-form
-input[type='search']::-webkit-input-placeholder,
-.search-form
-input[type='search']::-webkit-input-placeholder,
-.post-password-form
-input[type='search']::-webkit-input-placeholder, .comment-form
-input[type='password']::-webkit-input-placeholder,
-.search-form
-input[type='password']::-webkit-input-placeholder,
-.post-password-form
-input[type='password']::-webkit-input-placeholder, .comment-form
-input[type='url']::-webkit-input-placeholder,
-.search-form
-input[type='url']::-webkit-input-placeholder,
-.post-password-form
-input[type='url']::-webkit-input-placeholder, .comment-form
-input[type='date']::-webkit-input-placeholder,
-.search-form
-input[type='date']::-webkit-input-placeholder,
-.post-password-form
-input[type='date']::-webkit-input-placeholder, .comment-form
-textarea::-webkit-input-placeholder,
-.search-form
-textarea::-webkit-input-placeholder,
-.post-password-form
-textarea::-webkit-input-placeholder {
+.post-password-form input[type='text']::-webkit-input-placeholder,
+.comment-form input[type='tel']::-webkit-input-placeholder,
+.search-form input[type='tel']::-webkit-input-placeholder,
+.post-password-form input[type='tel']::-webkit-input-placeholder,
+.comment-form input[type='email']::-webkit-input-placeholder,
+.search-form input[type='email']::-webkit-input-placeholder,
+.post-password-form input[type='email']::-webkit-input-placeholder,
+.comment-form input[type='search']::-webkit-input-placeholder,
+.search-form input[type='search']::-webkit-input-placeholder,
+.post-password-form input[type='search']::-webkit-input-placeholder,
+.comment-form input[type='password']::-webkit-input-placeholder,
+.search-form input[type='password']::-webkit-input-placeholder,
+.post-password-form input[type='password']::-webkit-input-placeholder,
+.comment-form input[type='url']::-webkit-input-placeholder,
+.search-form input[type='url']::-webkit-input-placeholder,
+.post-password-form input[type='url']::-webkit-input-placeholder,
+.comment-form input[type='date']::-webkit-input-placeholder,
+.search-form input[type='date']::-webkit-input-placeholder,
+.post-password-form input[type='date']::-webkit-input-placeholder,
+.comment-form textarea::-webkit-input-placeholder,
+.search-form textarea::-webkit-input-placeholder,
+.post-password-form textarea::-webkit-input-placeholder {
   color: #ccc;
 }
 
 .comment-form input[type='text']::-moz-placeholder,
 .search-form input[type='text']::-moz-placeholder,
-.post-password-form input[type='text']::-moz-placeholder, .comment-form
-input[type='tel']::-moz-placeholder,
-.search-form
-input[type='tel']::-moz-placeholder,
-.post-password-form
-input[type='tel']::-moz-placeholder, .comment-form
-input[type='email']::-moz-placeholder,
-.search-form
-input[type='email']::-moz-placeholder,
-.post-password-form
-input[type='email']::-moz-placeholder, .comment-form
-input[type='search']::-moz-placeholder,
-.search-form
-input[type='search']::-moz-placeholder,
-.post-password-form
-input[type='search']::-moz-placeholder, .comment-form
-input[type='password']::-moz-placeholder,
-.search-form
-input[type='password']::-moz-placeholder,
-.post-password-form
-input[type='password']::-moz-placeholder, .comment-form
-input[type='url']::-moz-placeholder,
-.search-form
-input[type='url']::-moz-placeholder,
-.post-password-form
-input[type='url']::-moz-placeholder, .comment-form
-input[type='date']::-moz-placeholder,
-.search-form
-input[type='date']::-moz-placeholder,
-.post-password-form
-input[type='date']::-moz-placeholder, .comment-form
-textarea::-moz-placeholder,
-.search-form
-textarea::-moz-placeholder,
-.post-password-form
-textarea::-moz-placeholder {
+.post-password-form input[type='text']::-moz-placeholder,
+.comment-form input[type='tel']::-moz-placeholder,
+.search-form input[type='tel']::-moz-placeholder,
+.post-password-form input[type='tel']::-moz-placeholder,
+.comment-form input[type='email']::-moz-placeholder,
+.search-form input[type='email']::-moz-placeholder,
+.post-password-form input[type='email']::-moz-placeholder,
+.comment-form input[type='search']::-moz-placeholder,
+.search-form input[type='search']::-moz-placeholder,
+.post-password-form input[type='search']::-moz-placeholder,
+.comment-form input[type='password']::-moz-placeholder,
+.search-form input[type='password']::-moz-placeholder,
+.post-password-form input[type='password']::-moz-placeholder,
+.comment-form input[type='url']::-moz-placeholder,
+.search-form input[type='url']::-moz-placeholder,
+.post-password-form input[type='url']::-moz-placeholder,
+.comment-form input[type='date']::-moz-placeholder,
+.search-form input[type='date']::-moz-placeholder,
+.post-password-form input[type='date']::-moz-placeholder,
+.comment-form textarea::-moz-placeholder,
+.search-form textarea::-moz-placeholder,
+.post-password-form textarea::-moz-placeholder {
   opacity: 1;
   color: #ccc;
 }
 
 .comment-form input[type='text']:-moz-placeholder,
 .search-form input[type='text']:-moz-placeholder,
-.post-password-form input[type='text']:-moz-placeholder, .comment-form
-input[type='tel']:-moz-placeholder,
-.search-form
-input[type='tel']:-moz-placeholder,
-.post-password-form
-input[type='tel']:-moz-placeholder, .comment-form
-input[type='email']:-moz-placeholder,
-.search-form
-input[type='email']:-moz-placeholder,
-.post-password-form
-input[type='email']:-moz-placeholder, .comment-form
-input[type='search']:-moz-placeholder,
-.search-form
-input[type='search']:-moz-placeholder,
-.post-password-form
-input[type='search']:-moz-placeholder, .comment-form
-input[type='password']:-moz-placeholder,
-.search-form
-input[type='password']:-moz-placeholder,
-.post-password-form
-input[type='password']:-moz-placeholder, .comment-form
-input[type='url']:-moz-placeholder,
-.search-form
-input[type='url']:-moz-placeholder,
-.post-password-form
-input[type='url']:-moz-placeholder, .comment-form
-input[type='date']:-moz-placeholder,
-.search-form
-input[type='date']:-moz-placeholder,
-.post-password-form
-input[type='date']:-moz-placeholder, .comment-form
-textarea:-moz-placeholder,
-.search-form
-textarea:-moz-placeholder,
-.post-password-form
-textarea:-moz-placeholder {
+.post-password-form input[type='text']:-moz-placeholder,
+.comment-form input[type='tel']:-moz-placeholder,
+.search-form input[type='tel']:-moz-placeholder,
+.post-password-form input[type='tel']:-moz-placeholder,
+.comment-form input[type='email']:-moz-placeholder,
+.search-form input[type='email']:-moz-placeholder,
+.post-password-form input[type='email']:-moz-placeholder,
+.comment-form input[type='search']:-moz-placeholder,
+.search-form input[type='search']:-moz-placeholder,
+.post-password-form input[type='search']:-moz-placeholder,
+.comment-form input[type='password']:-moz-placeholder,
+.search-form input[type='password']:-moz-placeholder,
+.post-password-form input[type='password']:-moz-placeholder,
+.comment-form input[type='url']:-moz-placeholder,
+.search-form input[type='url']:-moz-placeholder,
+.post-password-form input[type='url']:-moz-placeholder,
+.comment-form input[type='date']:-moz-placeholder,
+.search-form input[type='date']:-moz-placeholder,
+.post-password-form input[type='date']:-moz-placeholder,
+.comment-form textarea:-moz-placeholder,
+.search-form textarea:-moz-placeholder,
+.post-password-form textarea:-moz-placeholder {
   color: #ccc;
 }
 
 .comment-form input[type='text']:-ms-input-placeholder,
 .search-form input[type='text']:-ms-input-placeholder,
-.post-password-form input[type='text']:-ms-input-placeholder, .comment-form
-input[type='tel']:-ms-input-placeholder,
-.search-form
-input[type='tel']:-ms-input-placeholder,
-.post-password-form
-input[type='tel']:-ms-input-placeholder, .comment-form
-input[type='email']:-ms-input-placeholder,
-.search-form
-input[type='email']:-ms-input-placeholder,
-.post-password-form
-input[type='email']:-ms-input-placeholder, .comment-form
-input[type='search']:-ms-input-placeholder,
-.search-form
-input[type='search']:-ms-input-placeholder,
-.post-password-form
-input[type='search']:-ms-input-placeholder, .comment-form
-input[type='password']:-ms-input-placeholder,
-.search-form
-input[type='password']:-ms-input-placeholder,
-.post-password-form
-input[type='password']:-ms-input-placeholder, .comment-form
-input[type='url']:-ms-input-placeholder,
-.search-form
-input[type='url']:-ms-input-placeholder,
-.post-password-form
-input[type='url']:-ms-input-placeholder, .comment-form
-input[type='date']:-ms-input-placeholder,
-.search-form
-input[type='date']:-ms-input-placeholder,
-.post-password-form
-input[type='date']:-ms-input-placeholder, .comment-form
-textarea:-ms-input-placeholder,
-.search-form
-textarea:-ms-input-placeholder,
-.post-password-form
-textarea:-ms-input-placeholder {
+.post-password-form input[type='text']:-ms-input-placeholder,
+.comment-form input[type='tel']:-ms-input-placeholder,
+.search-form input[type='tel']:-ms-input-placeholder,
+.post-password-form input[type='tel']:-ms-input-placeholder,
+.comment-form input[type='email']:-ms-input-placeholder,
+.search-form input[type='email']:-ms-input-placeholder,
+.post-password-form input[type='email']:-ms-input-placeholder,
+.comment-form input[type='search']:-ms-input-placeholder,
+.search-form input[type='search']:-ms-input-placeholder,
+.post-password-form input[type='search']:-ms-input-placeholder,
+.comment-form input[type='password']:-ms-input-placeholder,
+.search-form input[type='password']:-ms-input-placeholder,
+.post-password-form input[type='password']:-ms-input-placeholder,
+.comment-form input[type='url']:-ms-input-placeholder,
+.search-form input[type='url']:-ms-input-placeholder,
+.post-password-form input[type='url']:-ms-input-placeholder,
+.comment-form input[type='date']:-ms-input-placeholder,
+.search-form input[type='date']:-ms-input-placeholder,
+.post-password-form input[type='date']:-ms-input-placeholder,
+.comment-form textarea:-ms-input-placeholder,
+.search-form textarea:-ms-input-placeholder,
+.post-password-form textarea:-ms-input-placeholder {
   color: #ccc;
 }
 
 .comment-form input[type='text'].placeholder,
 .search-form input[type='text'].placeholder,
-.post-password-form input[type='text'].placeholder, .comment-form
-input[type='tel'].placeholder,
-.search-form
-input[type='tel'].placeholder,
-.post-password-form
-input[type='tel'].placeholder, .comment-form
-input[type='email'].placeholder,
-.search-form
-input[type='email'].placeholder,
-.post-password-form
-input[type='email'].placeholder, .comment-form
-input[type='search'].placeholder,
-.search-form
-input[type='search'].placeholder,
-.post-password-form
-input[type='search'].placeholder, .comment-form
-input[type='password'].placeholder,
-.search-form
-input[type='password'].placeholder,
-.post-password-form
-input[type='password'].placeholder, .comment-form
-input[type='url'].placeholder,
-.search-form
-input[type='url'].placeholder,
-.post-password-form
-input[type='url'].placeholder, .comment-form
-input[type='date'].placeholder,
-.search-form
-input[type='date'].placeholder,
-.post-password-form
-input[type='date'].placeholder, .comment-form
-textarea.placeholder,
-.search-form
-textarea.placeholder,
-.post-password-form
-textarea.placeholder {
+.post-password-form input[type='text'].placeholder,
+.comment-form input[type='tel'].placeholder,
+.search-form input[type='tel'].placeholder,
+.post-password-form input[type='tel'].placeholder,
+.comment-form input[type='email'].placeholder,
+.search-form input[type='email'].placeholder,
+.post-password-form input[type='email'].placeholder,
+.comment-form input[type='search'].placeholder,
+.search-form input[type='search'].placeholder,
+.post-password-form input[type='search'].placeholder,
+.comment-form input[type='password'].placeholder,
+.search-form input[type='password'].placeholder,
+.post-password-form input[type='password'].placeholder,
+.comment-form input[type='url'].placeholder,
+.search-form input[type='url'].placeholder,
+.post-password-form input[type='url'].placeholder,
+.comment-form input[type='date'].placeholder,
+.search-form input[type='date'].placeholder,
+.post-password-form input[type='date'].placeholder,
+.comment-form textarea.placeholder,
+.search-form textarea.placeholder,
+.post-password-form textarea.placeholder {
   color: #ccc;
 }
 
@@ -475,7 +390,7 @@ textarea.placeholder {
 }
 
 .commentlist-item .commentlist-item,
-.commentlist-item + .commentlist-item {
+.commentlist-item+.commentlist-item {
   padding-top: 1.2em;
 }
 
@@ -509,6 +424,7 @@ textarea.placeholder {
 }
 
 @media (max-width: 767px) {
+
   .navigation .page-numbers,
   .navigation-comments .page-numbers {
     padding: 0;
@@ -529,6 +445,7 @@ textarea.placeholder {
 }
 
 @media (max-width: 767px) {
+
   .navigation .next,
   .navigation .prev,
   .navigation-comments .next,
@@ -560,6 +477,7 @@ textarea.placeholder {
 }
 
 @media (max-width: 767px) {
+
   .navigation-single .next a,
   .navigation-single .prev a {
     padding: .2em;
@@ -631,7 +549,8 @@ img.aligncenter {
   font-style: normal;
 }
 
-[class^="ico-"], [class*=" ico-"] {
+[class^="ico-"],
+[class*=" ico-"] {
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -885,7 +804,9 @@ h6 a,
   background: rgba(0, 0, 0, 0.8);
 }
 
-a:hover, a:focus, a.active {
+a:hover,
+a:focus,
+a.active {
   outline: none;
 }
 
@@ -994,11 +915,15 @@ a:hover, a:focus, a.active {
   border-color: #222222;
 }
 
-.sticky-header.sticky .btn-default.btn-white:hover, .sticky-header.sticky .btn-default.btn-white:focus, .sticky-header.sticky .btn-default.btn-white:active {
+.sticky-header.sticky .btn-default.btn-white:hover,
+.sticky-header.sticky .btn-default.btn-white:focus,
+.sticky-header.sticky .btn-default.btn-white:active {
   color: #fff;
 }
 
-.btn-default.btn-white:hover, .btn-default.btn-white:focus, .btn-default.btn-white:active {
+.btn-default.btn-white:hover,
+.btn-default.btn-white:focus,
+.btn-default.btn-white:active {
   border-color: #222222;
   background: #222222;
 }
@@ -1023,7 +948,9 @@ a:hover, a:focus, a.active {
   padding: 13px 15px;
 }
 
-.btn-info:hover, .btn-info:focus, .btn-info:active {
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
   background: #222222;
   border-color: #222222;
 }
@@ -1037,14 +964,15 @@ a:hover, a:focus, a.active {
   right: 0;
   z-index: 6;
   position: absolute;
-  padding-top: 15px;
-  padding-bottom: 11px;
+  padding: 15px 0;
   transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
 }
 
 #header .holder {
   max-width: 1518px;
+  display: flex;
+  align-items: center;
 }
 
 #header.sticky {
@@ -1073,7 +1001,7 @@ a:hover, a:focus, a.active {
 -------------------------------------------------------------------*/
 .logo {
   float: left;
-  max-width: 100px;
+  max-width: 200px;
 }
 
 .logo .light {
@@ -1082,6 +1010,11 @@ a:hover, a:focus, a.active {
 
 .logo .dark {
   display: none;
+}
+
+.logo .dark {
+  display: none;
+  height: 50px;
 }
 
 /*------------------------------------------------------------------
@@ -1140,27 +1073,29 @@ a:hover, a:focus, a.active {
   text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav > li {
+.navbar-default .navbar-nav>li {
   position: relative;
   letter-spacing: 0.3px;
   transition: all 0.25s linear;
   -webkit-transition: all 0.25s linear;
 }
 
-.navbar-default .navbar-nav > li.active > a {
+.navbar-default .navbar-nav>li.active>a {
   color: #222222;
 }
 
-.navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li.active > a:focus, .navbar-default .navbar-nav > li.active > a:active {
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li.active>a:focus,
+.navbar-default .navbar-nav>li.active>a:active {
   color: #222222;
 }
 
-.navbar-default .navbar-nav > li.active > a:after {
+.navbar-default .navbar-nav>li.active>a:after {
   left: 0;
   right: 0;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   font: inherit;
   color: #222222;
   text-align: center;
@@ -1168,7 +1103,7 @@ a:hover, a:focus, a.active {
   position: static;
 }
 
-.navbar-default .navbar-nav > li > a:after {
+.navbar-default .navbar-nav>li>a:after {
   position: absolute;
   content: "";
   top: auto;
@@ -1177,7 +1112,7 @@ a:hover, a:focus, a.active {
   right: 0;
 }
 
-.navbar-default .navbar-nav > li > a:after {
+.navbar-default .navbar-nav>li>a:after {
   border-bottom: 1px solid #222222;
   z-index: 1;
   pointer-events: none;
@@ -1186,11 +1121,17 @@ a:hover, a:focus, a.active {
   transition: all 0.3s ease-out;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.anchor-active, .navbar-default .navbar-nav > li > a:active {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a.anchor-active,
+.navbar-default .navbar-nav>li>a:active {
   color: #222222;
 }
 
-.navbar-default .navbar-nav > li > a:hover:after, .navbar-default .navbar-nav > li > a:focus:after, .navbar-default .navbar-nav > li > a.anchor-active:after, .navbar-default .navbar-nav > li > a:active:after {
+.navbar-default .navbar-nav>li>a:hover:after,
+.navbar-default .navbar-nav>li>a:focus:after,
+.navbar-default .navbar-nav>li>a.anchor-active:after,
+.navbar-default .navbar-nav>li>a:active:after {
   left: 0;
   right: 0;
 }
@@ -1333,7 +1274,7 @@ a:hover, a:focus, a.active {
   height: 100%;
 }
 
-.morphext > .animated {
+.morphext>.animated {
   display: inline-block;
 }
 
@@ -1364,7 +1305,9 @@ a:hover, a:focus, a.active {
   transition: all 0.25s linear;
 }
 
-.social-networks a:hover, .social-networks a:focus, .social-networks a:active {
+.social-networks a:hover,
+.social-networks a:focus,
+.social-networks a:active {
   background: #5bc0de;
 }
 
@@ -1601,11 +1544,15 @@ a:hover, a:focus, a.active {
   color: #fff;
 }
 
-.demo-block ul a:hover, .demo-block ul a:focus, .demo-block ul a:active {
+.demo-block ul a:hover,
+.demo-block ul a:focus,
+.demo-block ul a:active {
   color: #222222;
 }
 
-.demo-block ul a:hover:after, .demo-block ul a:focus:after, .demo-block ul a:active:after {
+.demo-block ul a:hover:after,
+.demo-block ul a:focus:after,
+.demo-block ul a:active:after {
   border-color: #222222;
 }
 
@@ -1835,11 +1782,11 @@ a:hover, a:focus, a.active {
   z-index: -1;
 }
 
-.price-col + .price-col {
+.price-col+.price-col {
   margin-left: -1px;
 }
 
-.price-col + .price-col:before {
+.price-col+.price-col:before {
   border-left-width: 0;
 }
 
@@ -1850,7 +1797,8 @@ a:hover, a:focus, a.active {
 
 .price-col.over:hover h3,
 .price-col.over:hover .fa,
-.price-col.over:hover .subtitle, .price-col.over.active h3,
+.price-col.over:hover .subtitle,
+.price-col.over.active h3,
 .price-col.over.active .fa,
 .price-col.over.active .subtitle,
 .price-col .over:hover h3,
@@ -1862,20 +1810,23 @@ a:hover, a:focus, a.active {
   color: #fff;
 }
 
-.price-col.over:hover ul, .price-col.over.active ul,
+.price-col.over:hover ul,
+.price-col.over.active ul,
 .price-col .over:hover ul,
 .price-col .over.active ul {
   color: #fff;
 }
 
-.price-col.over:hover ul li:before, .price-col.over.active ul li:before,
+.price-col.over:hover ul li:before,
+.price-col.over.active ul li:before,
 .price-col .over:hover ul li:before,
 .price-col .over.active ul li:before {
   color: #fff;
 }
 
 .price-col.over:hover .btn,
-.price-col.over:hover .btn-info, .price-col.over.active .btn,
+.price-col.over:hover .btn-info,
+.price-col.over.active .btn,
 .price-col.over.active .btn-info,
 .price-col .over:hover .btn,
 .price-col .over:hover .btn-info,
@@ -1900,7 +1851,9 @@ a:hover, a:focus, a.active {
   min-width: 170px;
 }
 
-.price-col .btn:hover, .price-col .btn:focus, .price-col .btn:active {
+.price-col .btn:hover,
+.price-col .btn:focus,
+.price-col .btn:active {
   background: #003045;
   border-color: #003045;
 }
@@ -1930,19 +1883,22 @@ a:hover, a:focus, a.active {
   font: 300 14px/17px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.price-col ul {
+.price-col ul,
+ul.check-list {
   color: #8292a5;
   margin: 0 -14px 27px;
   text-align: left;
-  font: 300 14px/18px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 14px/18px "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.price-col ul li {
+.price-col ul li,
+ul.check-list li {
   padding: 13px 15px 11px 48px;
   position: relative;
 }
 
-.price-col ul li:before {
+.price-col ul li:before,
+ul.check-list li:before {
   position: absolute;
   content: "";
   top: 50%;
@@ -1951,10 +1907,17 @@ a:hover, a:focus, a.active {
   right: auto;
 }
 
-.price-col ul li:before {
+.check-list {
+  list-style: none;
+}
+
+.price-col ul li:before,
+ul.check-list li:before {
   width: 11px;
   text-align: center;
   font-size: 14px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-family: 'icomoon' !important;
   speak: none;
@@ -1968,10 +1931,12 @@ a:hover, a:focus, a.active {
   left: 17px;
 }
 
-.price-col ul li.check:before {
+.price-col ul li.check:before,
+ul.check-list li.check:before {
   color: #2ecc71;
   content: "\e913";
 }
+
 
 .price-col ul li.un-check:before {
   color: #f3746f;

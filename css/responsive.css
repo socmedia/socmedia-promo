@@ -90,6 +90,10 @@
 }
 
 @media (min-width: 768px) {
+  .logo .dark {
+    height: 50px;
+  }
+
   .mar-tmd {
     margin-top: 60px !important;
   }

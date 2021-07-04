@@ -1805,7 +1805,6 @@ a.active {
   padding-bottom: 30px;
   margin-bottom: 30px;
   float: none;
-  z-index: 1;
   display: inline-block;
   vertical-align: top;
   position: relative;
@@ -1885,7 +1884,11 @@ a.active {
   padding: 8px 15px 7px;
   display: block;
   text-align: center;
-  font: 400 16px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 19px/27px "Open Sans",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
   color: #fff;
 }
 
@@ -1908,9 +1911,43 @@ a.active {
 
 .price-col h3 {
   margin: 0;
-  text-transform: lowercase;
+  text-transform: capitalize;
   color: #233141;
   font: 600 28px/30px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.price-col h3 small {
+  font-size: 13px;
+  color: #505b67;
+}
+
+.price-col.active h3 small {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.price-col h5 {
+  text-decoration: line-through;
+  margin: 0 0 1rem 0;
+  text-transform: capitalize;
+  color: #505b67;
+  font: 600 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.price-col #best-seller {
+  position: absolute;
+  top: -23px;
+  right: -23px;
+  z-index: 2;
+  transform: rotate(30deg);
+}
+
+.price-col.active h5 {
+  text-decoration: line-through;
+  margin: 0 0 1rem 0;
+  text-transform: capitalize;
+  color: #fff;
+  font: 600 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .price-col .text-light {
@@ -1929,6 +1966,8 @@ a.active {
 .price-col ul,
 ul.check-list {
   color: #8292a5;
+  list-style: none;
+  padding-left: 1rem;
   margin: 0 -14px 27px;
   text-align: left;
   font: 600 14px/18px "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
